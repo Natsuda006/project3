@@ -4,7 +4,7 @@ class Welcome extends CI_Controller {
         $data["name"] = "Somchai";
         $data["email"] = "somchai@gmail.com";
         $data["books"] = array("Java", "PHP", "Python", "Kotlin");
-		$data["query"] = "NPRU 664259020 Thanawat Srisaeng";
+		$data["query"] = "NPRU 664259006 Natsuda Rongthong";
         $this->load->view('hello_view', $data);
     }
 }
